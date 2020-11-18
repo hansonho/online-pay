@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/online-pay/build/static/css/main.ef15ddfd.chunk.css",
+    "main.js": "/online-pay/build/static/js/main.a237d565.chunk.js",
+    "main.js.map": "/online-pay/build/static/js/main.a237d565.chunk.js.map",
+    "runtime-main.js": "/online-pay/build/static/js/runtime-main.1f797946.js",
+    "runtime-main.js.map": "/online-pay/build/static/js/runtime-main.1f797946.js.map",
+    "static/js/2.c19d848f.chunk.js": "/online-pay/build/static/js/2.c19d848f.chunk.js",
+    "static/js/2.c19d848f.chunk.js.map": "/online-pay/build/static/js/2.c19d848f.chunk.js.map",
+    "index.html": "/online-pay/build/index.html",
+    "precache-manifest.376983880f0db71c26716e73384a5e76.js": "/online-pay/build/precache-manifest.376983880f0db71c26716e73384a5e76.js",
+    "service-worker.js": "/online-pay/build/service-worker.js",
+    "static/css/main.ef15ddfd.chunk.css.map": "/online-pay/build/static/css/main.ef15ddfd.chunk.css.map",
+    "static/js/2.c19d848f.chunk.js.LICENSE.txt": "/online-pay/build/static/js/2.c19d848f.chunk.js.LICENSE.txt",
+    "static/media/atm.svg": "/online-pay/build/static/media/atm.25b3832d.svg",
+    "static/media/back-three.svg": "/online-pay/build/static/media/back-three.00e64bdd.svg",
+    "static/media/credit-card.svg": "/online-pay/build/static/media/credit-card.7e5592dd.svg",
+    "static/media/finish.svg": "/online-pay/build/static/media/finish.0a142196.svg",
+    "static/media/Footer.css": "/online-pay/build/static/media/footer-background.576d29f0.svg",
+    "static/media/jcb.svg": "/online-pay/build/static/media/jcb.21a2a9c3.svg",
+    "static/media/mastercard.svg": "/online-pay/build/static/media/mastercard.dddb8410.svg",
+    "static/media/shop.svg": "/online-pay/build/static/media/shop.9686ebda.svg",
+    "static/media/unionpay.svg": "/online-pay/build/static/media/unionpay.2844c063.svg",
+    "static/media/visa.svg": "/online-pay/build/static/media/visa.0821f758.svg",
+    "static/media/web-atm.svg": "/online-pay/build/static/media/web-atm.71271700.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1f797946.js",
+    "static/js/2.c19d848f.chunk.js",
+    "static/css/main.ef15ddfd.chunk.css",
+    "static/js/main.a237d565.chunk.js"
+  ]
+}
