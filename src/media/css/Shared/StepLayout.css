@@ -1,0 +1,39 @@
+.step{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.step .step-content{
+    position: relative;
+    box-sizing: border-box;
+    padding: 50px 25px;
+    background: #FFFFFF;
+}
+.step .title{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: NotoSansCJKtc-Medium;
+    margin: 15px 0 20px;
+    background-color: #8DEFCB;
+    padding: 0 5px;
+}
+.step .title h1{
+    transform: translateY(-10px);
+}
+.step .small-title{
+    margin-top: -10px;
+    font-size: 14px;
+    letter-spacing: 1.25px;
+}
+@media screen and (min-width: 768px){
+    .step{
+        width: 100%;
+        margin: 0 0 50px;
+    }
+    .step .step-content{
+        padding: 100px 25px;
+        box-shadow: 0 2px 13px 0;
+        border-radius: 0 10px 0 0;
+        z-index: 3;
+    }
+}

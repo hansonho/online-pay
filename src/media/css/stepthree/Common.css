@@ -1,0 +1,17 @@
+.finish-img {
+    width: 55%;
+    margin: 0 auto;
+    background-color: #B5FFE4;
+    border-radius: 50%;
+}
+.finish-detail{
+    margin: 50px 0 60px;
+}
+@media screen and (min-width: 768px) {
+    .finish-img {
+        width: 25%;
+        margin: 0 auto;
+        background-color: #B5FFE4;
+        border-radius: 50%;
+    }
+}

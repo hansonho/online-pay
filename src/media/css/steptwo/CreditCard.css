@@ -1,0 +1,153 @@
+.user-data{
+    padding: 20px 0 40px;
+}
+.user-data .data-info{
+    text-align: left;
+}
+.user-data .item p{
+    display: block;
+    margin-bottom: 10px;
+}
+.user-data input{
+    line-height: 1.5;
+    padding: 5px 5px;
+    border-radius: 5px;
+    border: 1px solid #979797;
+    box-sizing: border-box;
+    text-align: center;
+}
+.user-data input:focus{
+    border-color: #f00;
+}
+.user-data .data-info + .data-info{
+    margin-top: 20px;
+}
+.credit-card-method .item + .item{
+    margin-left: 30px;
+}
+.credit-card-number input{
+    width: 15%;
+}
+.credit-card-number hr{
+    display: inline-block;
+    width: 10px;
+    line-height: 1.5;
+    vertical-align: middle;
+    margin: 0 5px;
+}
+.credit-card-number img{
+    vertical-align: bottom;
+    width: 50px;
+    margin: 0 5px;
+}
+.credit-card-number img.active{
+    filter: sepia(75%) hue-rotate(100deg) brightness(0.9);
+}
+.validate-date{
+    position: relative;
+}
+.validate-date .dateInfo{
+    display: inline-block;
+    width: 25%;
+    position: relative;
+}
+.validate-date .dateInfo + .dateInfo{
+    margin-left: 20px;
+}
+.validate-date .month,
+.validate-date .year{
+    display: inline-block;
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #979797;
+    box-sizing: border-box;
+    color: #777;
+    position: relative;
+    vertical-align: middle;
+}
+.validate-date .dateInfo.active .month,
+.validate-date .dateInfo.active .year{
+    border-radius: 5px 5px 0 0;
+    background-color: #ddd;
+    color: #333;
+}
+.validate-date .month:active,
+.validate-date .year:active{
+    border: 1px solid #777;
+    color: #555;
+}
+.validate-date .month::after,
+.validate-date .year::after{
+    content: '';
+    border-top: 7px solid #777;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.validate-date ul{
+    display: none;
+    width: 100%;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #979797;
+    left: 0;
+    top: 100%;
+    box-sizing: border-box;
+    border-radius: 0px 0px 5px 5px;
+    z-index: 1;
+}
+.validate-date .dateInfo.active ul{
+    display: block;
+}
+.validate-date ul li{
+    width: 100%;
+    padding: 5px 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.validate-date ul li:hover{
+    color: #999;
+    background-color: #8DEFCB;
+}
+.back-three-num input{
+    width: 25%;
+}
+.back-three-num img{
+    vertical-align: bottom;
+    max-height: 31px;
+    margin-left: 10px;
+}
+.double-check{
+    display: flex;
+}
+.double-check input{
+    vertical-align: top;
+    margin-top: 5px;
+}
+.double-check label,
+.double-check span{
+    display: inline-block;
+    width: 90%;
+    line-height: 25px;
+    font-size: 14px;
+    margin-left: 8px;
+    letter-spacing: 1.46px;
+}
+.double-check span{
+    margin-top: 5px;
+    color: #969696;
+}
+.require{
+    display: block;
+    font-size: 13px;
+    color: #f00;
+    margin-top: 5px;
+}
+.user-email input {
+    width: 60%;
+    max-width: 250px;
+}

@@ -1,0 +1,116 @@
+.order-info-area{
+    position: absolute;
+    float: left;
+    width: 40%;
+    background-color: #F3F3F3;
+    padding: 20px 10px;
+    z-index: 2;
+    top: 70px;
+    left: -40%;
+    box-sizing: border-box;
+    transition: .3s linear;
+}
+.order-info-area.open{
+    left: 0;
+    transition: .3s linear;
+}
+.order-info-area .content + .content{
+    margin-top: 15px;
+}
+.order-info-area .title{
+    width: 16px;
+    position: absolute;
+    top: 0;
+    right: -36px;
+    font-family: NotoSansCJKtc-Medium;
+    font-size: 16px;
+    color: #000;
+    font-weight: bolder;
+    background-color: #F3F3F3;
+    padding: 20px 10px;
+    border-radius: 0 10px 10px 0;
+    box-shadow: 2px 2px 2px #aaa;
+}
+.order-info-area .title h2{
+    line-height: 1.2;
+}
+.order-info-area .content{
+    font-size: 14px;
+    color: #5E5E5E;
+    font-family: NotoSansCJKtc-DemiLigh;
+    line-height: 24px;
+}
+.order-info-area .content p:nth-of-type(2){
+    font-weight: bolder;
+}
+.order-info-area .btn.back-shop{
+    top: calc(100% + 20px);
+    left: 0;
+    transform: unset;
+}
+.order-info-area.finish{
+    display: none;
+}
+@media screen and (min-width: 768px) {
+    .order-info-area{
+        position: relative;
+        width: 30%;
+        background-color: #F3F3F3;
+        padding: 30px 30px;
+        box-sizing: border-box;
+        border-radius: 10px 0 0 10px;
+        margin-top: 100px;
+        height: fit-content;
+        top: 0;
+        left: 0;
+    }
+    .order-info-area .title{
+        position: static;
+        width: auto;
+        font-family: NotoSansCJKtc-Medium;
+        font-size: 16px;
+        color: #000;
+        font-weight: bolder;
+        background-color: #F3F3F3;
+        padding: 0;
+        margin-bottom: 15px;
+        border-radius: 0;
+        box-shadow: unset;
+    }
+    .order-info-area .title h2{
+        line-height: 1;
+    }
+    .order-info-area.finish{
+        display: block;
+        left: 21.5%;
+    }
+    .order-info-area.finish .finish-title{
+        position: absolute;
+        left: -80px;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 24px;
+        letter-spacing: 2.09px;
+        font-family: NotoSansCJKtc-Medium;
+    }
+    .order-info-area.finish .finish-title::before{
+        display: block;
+        content: '';
+        border: 1px solid #000;
+        width: 20px;
+        transform: rotate(45deg);
+        position: absolute;
+        right: 0;
+        top: -20px;
+    }
+    .order-info-area.finish .finish-title::after{
+        display: block;
+        content: '';
+        border: 1px solid #000;
+        width: 20px;
+        transform: rotate(135deg);
+        position: absolute;
+        right: 0;
+        bottom: -20px;
+    }
+}

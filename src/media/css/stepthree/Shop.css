@@ -1,0 +1,15 @@
+.shop-finish{
+    text-align: left;
+}
+.shop-finish + .shop-finish{
+    margin: 50px 0;
+}
+.shop-finish p{
+    font-size: 22px;
+    font-weight: bolder;
+}
+.shop-finish p:first-of-type{
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: unset;
+}

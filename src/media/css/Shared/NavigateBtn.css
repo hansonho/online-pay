@@ -1,0 +1,43 @@
+.btn-area{
+    display: flex;
+    position: relative;
+}
+.step-one .btn-area{
+    margin-top: 40px;
+    padding: 0 25px;
+    flex-direction: row-reverse;
+}
+.step-two .btn-area{
+    justify-content: space-between;
+}
+.step-three .btn-area{
+    justify-content: center;
+}
+.btn{
+    display: inline-block;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #36B996;
+    box-sizing: border-box;
+}
+.btn.disable{
+    background-color: #86b8aa;
+    cursor: not-allowed;
+}
+
+.btn.back-shop{
+    position: absolute;
+    background-color: #4B4B4B;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.btn.back-step{
+    background: #D5F5E9;
+    color: #5E5E5E;
+}
+.step-three .btn.back-shop{
+    background-color: #36B996;
+}

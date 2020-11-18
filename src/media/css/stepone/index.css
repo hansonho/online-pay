@@ -1,0 +1,97 @@
+.step-one .content{
+    box-sizing: border-box;
+    padding: 30px 25px;
+}
+.step-one .content ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-family: NotoSansCJKtc-DemiLight;
+}
+.step-one .content label{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 45%;
+    background-color: #D8D8D8;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 300;
+    box-sizing: border-box;
+    height: 140px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+}
+.step-one .content label:nth-of-type(3),
+.step-one .content label:nth-of-type(4){
+    margin: 30px 0;
+}
+.step-one .content li img{
+    width: 50%;
+    vertical-align: bottom;
+}
+.step-one .content .payment{
+    display: block;
+    font-weight: bolder;
+    margin-top: 15px;
+}
+.step-one .content input[type="radio"]{
+    display: none;
+}
+.step-one .content input[type="radio"]:checked + label{
+    background-color: #36B996;
+    color: #fff;
+}
+.step-one .content input[type="radio"]:checked + label img{
+    filter: brightness(0) invert(1);
+}
+@media screen and (max-width: 767px){
+    .step-one .content input[type="radio"]:checked + label .tooltips{
+        opacity: 1;
+        z-index: 1;
+        transition: opacity .3s;
+    }
+}
+@media screen and (min-width: 768px) {
+    .step-one .content{
+        box-sizing: border-box;
+        padding: 50px 60px;
+    }
+    .step-one .step-content{
+        height: calc(100% - 55px);
+        overflow: hidden;
+    }
+    .step-one .content ul{
+        justify-content: center;
+    }
+    .step-one .content label{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 30%;
+        background-color: #D8D8D8;
+        border-radius: 10px;
+        font-size: 15px;
+        font-weight: 300;
+        box-sizing: border-box;
+        height: 140px;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+    .step-one .content label:nth-of-type(3),
+    .step-one .content label:nth-of-type(4){
+        margin: 0;
+    }
+    .step-one .content label:nth-of-type(3n - 1){
+        margin: 0px 15px 30px;
+    }
+    .step-one .content label:hover .tooltips{
+        opacity: 1;
+        z-index: 1;
+        transition: opacity .3s;
+    }
+}
